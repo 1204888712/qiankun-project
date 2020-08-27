@@ -840,7 +840,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.10.5", "@babel/runtime@^7.11.0", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
   version "7.11.2"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.11.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha1-9UnBPHVMxAuHZEufqfCaapX+BzY=
@@ -4187,13 +4187,6 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
-import-html-entry@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.npm.taobao.org/import-html-entry/download/import-html-entry-1.9.0.tgz?cache=0&sync_timestamp=1598360376149&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fimport-html-entry%2Fdownload%2Fimport-html-entry-1.9.0.tgz#87e6ababa0f7c8de71e9b92e10a82612abff1eeb"
-  integrity sha1-h+arq6D3yN5x6bkuEKgmEqv/Hus=
-  dependencies:
-    "@babel/runtime" "^7.7.2"
-
 import-local@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/import-local/download/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
@@ -5334,11 +5327,6 @@ npm-run-path@^4.0.0:
   dependencies:
     path-key "^3.0.0"
 
-nprogress@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/nprogress/download/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
-  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
-
 nth-check@^1.0.2, nth-check@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/nth-check/download/nth-check-1.0.2.tgz#b2bd295c37e3dd58a3bf0700376663ba4d9cf05c"
@@ -6226,17 +6214,6 @@ q@^1.1.2:
   resolved "https://registry.npm.taobao.org/q/download/q-1.5.1.tgz?cache=0&sync_timestamp=1589682817412&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fq%2Fdownload%2Fq-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qiankun@^2.0.23:
-  version "2.0.23"
-  resolved "https://registry.npm.taobao.org/qiankun/download/qiankun-2.0.23.tgz#05dd95d621186f5c5b595e8ddf13111be426db41"
-  integrity sha1-Bd2V1iEYb1xbWV6N3xMRG+Qm20E=
-  dependencies:
-    "@babel/runtime" "^7.10.5"
-    import-html-entry "^1.9.0"
-    lodash "^4.17.11"
-    single-spa "^5.3.1"
-    tslib "^1.10.0"
-
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
@@ -6762,11 +6739,6 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
-
-single-spa@^5.3.1:
-  version "5.5.5"
-  resolved "https://registry.npm.taobao.org/single-spa/download/single-spa-5.5.5.tgz#77a947516874d50b1e1a43aa6c316b550605d4fb"
-  integrity sha1-d6lHUWh01QseGkOqbDFrVQYF1Ps=
 
 slash@^1.0.0:
   version "1.0.0"
